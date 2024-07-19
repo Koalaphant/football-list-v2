@@ -14,6 +14,13 @@ app.get("/", (req, res) => {
   res.send("FotList API");
 });
 
+app.get("/list", (req, res) => {
+  res.send({
+    name: "Andrew",
+    age: "29",
+  });
+});
+
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}...`);
 });
