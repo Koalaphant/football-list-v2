@@ -1,0 +1,13 @@
+{
+  "name": "football-list-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd ./client && npm i && npm run dev",
+    "server": "cd ./server && npm i && node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

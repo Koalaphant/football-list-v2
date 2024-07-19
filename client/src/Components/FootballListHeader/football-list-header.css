@@ -1,0 +1,48 @@
+.list-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0px 0px 20px 0px;
+    padding: 50px 0px;
+    background: linear-gradient(to bottom, #008080, #004c4c);
+}
+
+.app-title {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.btn {
+    border: 2px solid white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #b2d8d8; 
+    color: #004c4c; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #004c4c;
+    color: #b2d8d8;
+    border-color: #b2d8d8;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn:focus {
+    outline: none;
+}

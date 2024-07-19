@@ -1,0 +1,15 @@
+.list-item-container{
+    background-color: #008080;
+    display: flex;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 1.2em;
+    border-top: 1px solid #b2d8d8;
+    border-bottom: 1px solid #b2d8d8;
+    justify-content: space-between;
+}
+
+.footballer-details {
+    display: flex;
+    gap: 20px;
+}
